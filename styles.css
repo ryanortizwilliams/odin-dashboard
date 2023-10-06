@@ -40,8 +40,29 @@ a {
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: #89a4c7;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.nav-top {
+  display: flex;
+  grid-column: 1/2;
+}
+
+.search-bar {
+  width: 50%;
+  text-align: center;
 }
 
 .content {
   background-color: #cdd5e0;
 }
+
+/* 
+Tentative color pallet
+    F5B17B orange
+    4E709D dark blue
+    89A4C7 light blue
+    CDD5E0 grey
+*/
