@@ -2,3 +2,29 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+.sidebar {
+  background-color: #4e709d;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.nav {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #89a4c7;
+}
+
+.content {
+  background-color: #cdd5e0;
+}
