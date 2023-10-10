@@ -31,6 +31,11 @@ a {
   font-size: 1.5em;
 }
 
+.sidebar h1 {
+  padding-top: 5%;
+  font-size: 2.5rem;
+}
+
 .link-group {
   list-style: none;
   width: 100%;
@@ -43,6 +48,7 @@ a {
 
 .link-group a i {
   padding-right: 5%;
+  padding-bottom: 10px;
 }
 
 /* nav section */
