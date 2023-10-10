@@ -17,6 +17,7 @@ a {
   grid-template-rows: 1fr 4fr;
 }
 
+/* sidebar */
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -44,6 +45,7 @@ a {
   padding-right: 5%;
 }
 
+/* nav section */
 .nav {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -51,23 +53,39 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 2fr;
+  padding: 0 3%;
+  color: white;
 }
 
 .nav-top {
-  padding-top: 10px;
+  padding-top: 20px;
   grid-column: 1/2;
   display: flex;
+
+  font-size: large;
 }
 
 .searchBar {
-  width: 70%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex: 1;
+}
+
+.top-icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.small-icon {
+  flex: 1;
+  height: 2rem;
+  border-radius: 50%;
 }
 
 #searchQueryInput {
-  width: 75%;
+  width: 65%;
   height: 1.8rem;
   background: #f5f5f5;
   outline: none;
@@ -75,7 +93,7 @@ a {
   border-radius: 1.625rem;
   padding: 0 3.5rem 0 1.5rem;
   font-size: 1rem;
-  margin-left: 5%;
+  margin-left: 10px;
 }
 
 #searchQuerySubmit {
@@ -90,6 +108,48 @@ a {
 #searchQuerySubmit:hover {
   cursor: pointer;
 }
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.large-icon {
+  max-height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.greeting {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  font-size: large;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-buttons button {
+  margin-left: 3%;
+  background-color: #f5b17b;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* main content */
 
 .content {
   background-color: #cdd5e0;
