@@ -154,7 +154,7 @@ a {
 .content {
   background-color: #cdd5e0;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-auto-rows: max-content;
 }
 
@@ -175,7 +175,7 @@ a {
   grid-row: 2/3;
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 10px;
 }
 
@@ -187,12 +187,32 @@ a {
 
 .content-title {
   grid-column: 1/-1;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   border-left: solid 10px #f5b17b;
   border-radius: 8px;
+  padding: 10px;
+}
+
+.content-text p {
+  padding-top: 10px;
+}
+
+.content-icons {
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
 }
 /* 
 Tentative color pallet
