@@ -153,6 +153,32 @@ a {
 
 .content {
   background-color: #cdd5e0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: max-content;
+}
+
+.my-projects {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.main-content {
+  grid-column: 1/2;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-content {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.sub-content {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #f5b17b;
 }
 
 /* 
