@@ -79,8 +79,8 @@ a {
 }
 
 .small-icon {
-  flex: 1;
   height: 2rem;
+  width: 2rem;
   border-radius: 50%;
 }
 
@@ -230,7 +230,7 @@ a {
   border-radius: 8px;
 }
 
-.announcement-card {
+.sub-card {
   background-color: white;
   padding: 10px;
   border-radius: 8px;
