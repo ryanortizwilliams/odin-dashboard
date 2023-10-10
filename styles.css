@@ -182,7 +182,6 @@ a {
 .sub-content {
   grid-column: 2/3;
   grid-row: 2/3;
-  background-color: #f5b17b;
 }
 
 .content-title {
@@ -213,6 +212,32 @@ a {
   display: flex;
   justify-content: end;
   gap: 10px;
+}
+
+.sub-content {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  padding: 10px;
+  gap: 10px;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.announcement-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.announcement {
+  padding: 5px 0;
 }
 /* 
 Tentative color pallet
